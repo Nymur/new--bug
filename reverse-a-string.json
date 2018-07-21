@@ -1,0 +1,7 @@
+{"index.js":"function reverseString(str) {\n
+  let newStr=\"\";
+  \n
+  for(let i=0;i<str.length;i++){\nnewStr+=str[str.length-1-i];
+    \n  }\n  return newStr;\n}
+    \n\n
+    console.log(reverseString(\"hello\"));"}
