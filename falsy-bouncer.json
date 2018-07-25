@@ -1,0 +1,1 @@
+{"index.js":"function bouncer(arr) {\n  // Don't show a false ID to this bouncer.\n  return arr.filter(x => x);\n}\n\nlet t = bouncer([7, \"ate\", \"\", false, 9]);\nconsole.log(t);"}

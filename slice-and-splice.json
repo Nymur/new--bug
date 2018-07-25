@@ -1,0 +1,1 @@
+{"index.js":"function frankenSplice(arr1,arr2,n){\n let newArr = [];\n   newArr = arr2.slice(0);\n   //newArr = \n   newArr.splice(n,0,...arr1);\n   //newArr = newArr.splice(n,0,4); //when I do this for test ..it still not working . what is the problem with my splice() ?  \nreturn newArr;\n\n} \nlet t = frankenSplice([1, 2], [\"a\", \"b\"], 1);\nconsole.log(t);"}

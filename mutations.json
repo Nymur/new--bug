@@ -1,0 +1,1 @@
+{"index.js":"function mutation(arr) {\n  let bol;\n  let a1 = arr[0].toLowerCase();\n  let a2 = arr[1].toLowerCase();\nfor(let i =0;i<a2.length;i++){\n  if((a1.indexOf(a2[i]))=== -1){\n    bol = false;\n    break;\n  }\n  else{\n    bol = true;\n  }\n}\n  return bol;\n}\n\nlet t = mutation([\"hello\", \"neo\"]);\nconsole.log(t);"}
